@@ -11417,6 +11417,14 @@ p {
   display: flex;
   flex-direction: row-reverse;
 }
+
+@media only screen and (max-width: 930px) {
+  .blog-card:nth-child(even) {
+    display: flex;
+    flex-direction: row !important;
+  }
+}
+
 .blog-card-header {
   min-width: 350px;
   max-width: 350px;
