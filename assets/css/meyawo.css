@@ -11188,6 +11188,8 @@ p {
   bottom: 7px;
   opacity: 1;
   visibility: visible;
+  font-size: 0.8em;
+  cursor: default;
 }
 
 /*/ portfolio wrapper */
